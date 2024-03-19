@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <title>Road Rescue</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader_image"></div>
+    </div>
+
+    <!-- search modal -->
+    <div
+      class="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="search_modal"
+      id="search_modal"
+    >
+      <button
+        type="button"
+        class="close"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">
+          <i class="rt-icon2-cross2"></i>
+        </span>
+      </button>
+      <div class="widget widget_search">
+        <form
+          method="get"
+          class="searchform search-form form-inline"
+          action="index.html"
+        >
+          <div class="form-group">
+            <input
+              type="text"
+              value=""
+              name="search"
+              class="form-control"
+              placeholder="Search keyword"
+              id="modal-search-input"
+            />
+          </div>
+          <button type="submit" class="theme_button">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+      <div class="fw-messages-wrap ls with_padding">
+        <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+        <!--		
+		<ul>
+			<li>Message To User</li>
+		</ul>
+		-->
+      </div>
+    </div>
+    <!-- eof .modal -->
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+      <div id="box_wrapper">
+        <!-- template sections -->
+
+        <header
+          class="page_header header_darkgrey header_logo_center toggler_right menu_justify"
+        >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12 text-left text-md-center">
+                <div class="logo_wrapper">
+                  <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="" />
+                    <span class="logo_text">
+                      <span class="highlight">24/7 ROAD RESCUE</span>
+                      <span>Automobile Services</span>
+                    </span>
+                  </a>
+                </div>
+                <!-- header toggler -->
+                <span class="toggle_menu">
+                  <span></span>
+                </span>
+                <!-- main nav start -->
+                <nav class="mainmenu_wrapper">
+                  <ul class="mainmenu nav sf-menu">
+                    <li class="active">
+                      <a href="index.html">Home</a>
+                    </li>
+
+                    <!-- blog -->
+                    <li>
+                      <a href="blog-full.html">Blog</a>
+                    </li>
+                    <!-- eof blog -->
+
+                    <!-- contacts -->
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    <!-- eof contacts -->
+
+                    <!-- log in -->
+                    <li>
+                      <a href="admin_signin.html">Log In</a>
+                    </li>
+                    <!-- eof Log in -->
+                  </ul>
+                </nav>
+                <!-- eof main nav -->
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section
+          class="page_breadcrumbs cs background_cover section_padding_top_40 section_padding_bottom_40"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h2>Blog</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ls section_padding_top_150 section_padding_bottom_120">
+          <div class="container">
+            <div class="row bottommargin_40">
+              <div class="col-sm-12">
+                <div class="intro_section blog_flexslider">
+                  <div class="flexslider" data-nav="false" data-dots="false">
+                    <ul class="slides">
+                      <li class="ds">
+                        <img src="images/gallery/03.jpg" alt="" />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12 text-center">
+                              <div class="slide_description_wrapper">
+                                <div class="slide_description">
+                                  <div
+                                    class="intro-layer"
+                                    data-animation="fadeInUp"
+                                  >
+                                    <p class="big grey">
+                                      we provide highest quality
+                                      <br />
+                                      <strong class="highlight"
+                                        >towing services</strong
+                                      >
+                                    </p>
+                                  </div>
+                                </div>
+                                <!-- eof .slide_description -->
+                              </div>
+                              <!-- eof .slide_description_wrapper -->
+                            </div>
+                            <!-- eof .col-* -->
+                          </div>
+                          <!-- eof .row -->
+                        </div>
+                        <!-- eof .container -->
+                      </li>
+
+                      <li class="ds">
+                        <img src="images/gallery/04.jpg" alt="" />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12 text-center">
+                              <div class="slide_description_wrapper">
+                                <div class="slide_description">
+                                  <div
+                                    class="intro-layer"
+                                    data-animation="fadeInUp"
+                                  >
+                                    <p class="big grey">
+                                      we provide highest quality
+                                      <br />
+                                      <strong class="highlight"
+                                        >towing services</strong
+                                      >
+                                    </p>
+                                  </div>
+                                </div>
+                                <!-- eof .slide_description -->
+                              </div>
+                              <!-- eof .slide_description_wrapper -->
+                            </div>
+                            <!-- eof .col-* -->
+                          </div>
+                          <!-- eof .row -->
+                        </div>
+                        <!-- eof .container -->
+                      </li>
+
+                      <li class="ds">
+                        <img src="images/gallery/05.jpg" alt="" />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12 text-center">
+                              <div class="slide_description_wrapper">
+                                <div class="slide_description">
+                                  <div
+                                    class="intro-layer"
+                                    data-animation="fadeInUp"
+                                  >
+                                    <p class="big grey">
+                                      we provide highest quality
+                                      <br />
+                                      <strong class="highlight"
+                                        >towing services</strong
+                                      >
+                                    </p>
+                                  </div>
+                                </div>
+                                <!-- eof .slide_description -->
+                              </div>
+                              <!-- eof .slide_description_wrapper -->
+                            </div>
+                            <!-- eof .col-* -->
+                          </div>
+                          <!-- eof .row -->
+                        </div>
+                        <!-- eof .container -->
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- eof flexslider -->
+                </div>
+              </div>
+            </div>
+
+            <div class="row columns_margin_bottom_30 bottommargin_20">
+              <div class="col-sm-12 text-center">
+                <h2 class="section_header">
+                  Top
+                  <strong>Posts</strong>
+                </h2>
+                <p class="small-text">We have the correct tie</p>
+                <hr class="divider_30_3 zebra_bg" />
+              </div>
+
+              <div class="col-md-4 col-sm-6">
+                <article
+                  class="vertical-item content-padding post format-standard with_border text-center"
+                >
+                  <div class="item-media entry-thumbnail">
+                    <img src="images/gallery/01.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title=""></a>
+                    </div>
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header">
+                      <h3 class="entry-title">
+                        <a rel="bookmark"
+                          >What You Should Know About Towing Capacity</a
+                        >
+                      </h3>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      What is stopping you from believing in the business of
+                      your dreams? Insecurity? Fear? Lack of confidence?
+                    </p>
+
+                    <div class="entry-meta">
+                      <div class="entry-date small-text">
+                        <time
+                          class="entry-date"
+                          datetime="2017-03-13T08:50:40+00:00"
+                        >
+                          September 26, 2016
+                        </time>
+                      </div>
+
+                      <a class="entry-author">by Admin</a>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+              </div>
+
+              <div class="col-md-4 col-sm-6">
+                <article
+                  class="vertical-item content-padding post format-standard with_border text-center"
+                >
+                  <div class="item-media entry-thumbnail">
+                    <img src="images/gallery/02.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title=""></a>
+                    </div>
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header">
+                      <h3 class="entry-title">
+                        <a rel="bookmark"
+                          >Towing Service - How to Choose a Quality Service</a
+                        >
+                      </h3>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      You can’t truly plan for a road side break-down and road
+                      accidents. But in the midst of all the confusion...
+                    </p>
+
+                    <div class="entry-meta">
+                      <div class="entry-date small-text">
+                        <time
+                          class="entry-date"
+                          datetime="2017-03-13T08:50:40+00:00"
+                        >
+                          September 19, 2016
+                        </time>
+                      </div>
+
+                      <a class="entry-author">by Admin</a>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+              </div>
+
+              <div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+                <article
+                  class="vertical-item content-padding post format-standard with_border text-center"
+                >
+                  <div class="item-media entry-thumbnail">
+                    <img src="images/gallery/03.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title=""></a>
+                    </div>
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header">
+                      <h3 class="entry-title">
+                        <a rel="bookmark"
+                          >4 Reasons You May Need Heavy Towing For Your Car</a
+                        >
+                      </h3>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      Your automobile is bound to run into issues, whether it be
+                      the brakes or the engine, cars simply are not meant...
+                    </p>
+
+                    <div class="entry-meta">
+                      <div class="entry-date small-text">
+                        <time
+                          class="entry-date"
+                          datetime="2017-03-13T08:50:40+00:00"
+                        >
+                          September 07, 2016
+                        </time>
+                      </div>
+
+                      <a class="entry-author">by Admin</a>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-10 col-sm-push-1">
+                <article
+                  class="vertical-item content-padding post format-standard with_border"
+                >
+                  <div class="item-media entry-thumbnail">
+                    <img src="images/gallery/01.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title=""></a>
+                    </div>
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a href="blog-single-full.html" rel="bookmark"
+                          >What You Should Know About Towing Capacity</a
+                        >
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      Strip steak andouille tongue, bresaola bacon cupim beef
+                      ribs turducken. Shank short ribs beef ribs frankfurter.
+                      Tail hamburger rump, capicola brisket corned beef strip
+                      steak. Venison landjaeger turkey biltong drumstick.
+                    </p>
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+                <!-- .post -->
+
+                <article class="post format-small-image with_border">
+                  <div class="side-item content-padding">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="item-media entry-thumbnail">
+                          <img src="images/events/05.jpg" alt="" />
+                          <div class="media-links">
+                            <a class="abs-link" title=""></a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-7">
+                        <div class="item-content top-zebra-border">
+                          <header class="entry-header content-justify">
+                            <h3 class="entry-title">
+                              <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                            </h3>
+
+                            <a class="entry-author">by Admin</a>
+                          </header>
+                          <!-- .entry-header -->
+
+                          <p>
+                            Strip steak andouille tongue, bresaola bacon cupim
+                            beef ribs turducken. Shank short ribs beef ribs
+                            frankfurter. Tail hamburger rump, capicola brisket
+                            corned beef strip steak. Venison landjaeger turkey
+                            biltong drumstick.
+                          </p>
+
+                          <div class="entry-date small-text">
+                            <time
+                              class="entry-date"
+                              datetime="2017-03-13T08:50:40+00:00"
+                            >
+                              September 26, 2016
+                            </time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!-- .post -->
+
+                <article
+                  class="vertical-item content-padding post format-gallery with_border"
+                >
+                  <div class="entry-thumbnail item-media">
+                    <div
+                      class="owl-carousel"
+                      data-loop="true"
+                      data-margin="0"
+                      data-nav="false"
+                      data-dots="true"
+                      data-themeclass="entry-thumbnail-carousel"
+                      data-center="false"
+                      data-items="1"
+                      data-autoplay="true"
+                      data-responsive-xs="1"
+                      data-responsive-sm="1"
+                      data-responsive-md="1"
+                      data-responsive-lg="1"
+                    >
+                      <div class="item">
+                        <img src="images/gallery/12.jpg" alt="image" />
+                      </div>
+                      <div class="item">
+                        <img src="images/gallery/03.jpg" alt="image" />
+                      </div>
+                      <div class="item">
+                        <img src="images/gallery/04.jpg" alt="image" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      Strip steak andouille tongue, bresaola bacon cupim beef
+                      ribs turducken. Shank short ribs beef ribs frankfurter.
+                      Tail hamburger rump, capicola brisket corned beef strip
+                      steak. Venison landjaeger turkey biltong drumstick.
+                    </p>
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+                <!-- .post -->
+
+                <article
+                  class="vertical-item content-padding post format-video with_border"
+                >
+                  <div class="entry-thumbnail item-media">
+                    <div class="embed-responsive embed-responsive-3by2">
+                      <a
+                        href="https://player.vimeo.com/video/1084537"
+                        class="embed-placeholder"
+                      >
+                        <img src="images/gallery/02.jpg" alt="" />
+                      </a>
+                    </div>
+                    <!-- <iframe src="//player.vimeo.com/video/1084537" width="1000" height="460"></iframe> -->
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      Strip steak andouille tongue, bresaola bacon cupim beef
+                      ribs turducken. Shank short ribs beef ribs frankfurter.
+                      Tail hamburger rump, capicola brisket corned beef strip
+                      steak. Venison landjaeger turkey biltong drumstick.
+                    </p>
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding post format-video with_border"
+                >
+                  <div class="entry-thumbnail item-media">
+                    <div class="embed-responsive embed-responsive-3by2">
+                      <a
+                        href="https://www.youtube.com/embed/mcixldqDIEQ"
+                        class="embed-placeholder"
+                      >
+                        <img src="images/gallery/09.jpg" alt="" />
+                      </a>
+                    </div>
+
+                    <!-- <iframe width="1000" height="460" src="https://www.youtube.com/embed/mcixldqDIEQ" allowfullscreen></iframe> -->
+                  </div>
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      Strip steak andouille tongue, bresaola bacon cupim beef
+                      ribs turducken. Shank short ribs beef ribs frankfurter.
+                      Tail hamburger rump, capicola brisket corned beef strip
+                      steak. Venison landjaeger turkey biltong drumstick.
+                    </p>
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- .item-content.entry-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding with_border post format-aside"
+                >
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <p>
+                      Strip steak andouille tongue, bresaola bacon cupim beef
+                      ribs turducken. Shank short ribs beef ribs frankfurter.
+                      Tail hamburger rump, capicola brisket corned beef strip
+                      steak. Venison landjaeger turkey biltong drumstick.
+                    </p>
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- eof .item-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding text-center ds bg_teaser after_cover darkgrey_bg post format-status"
+                >
+                  <img src="images/status.jpg" alt="" />
+                  <div class="item-content entry-content">
+                    <header class="entry-header">
+                      <div class="entry-meta">
+                        <img
+                          alt=""
+                          src="images/team/02.jpg"
+                          class="avatar avatar-96 photo avatar-default topmargin_20"
+                        />
+                      </div>
+                      <!-- .entry-meta -->
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <div class="entry-meta item-meta">
+                        <div class="entry-date small-text">
+                          <time
+                            class="entry-date"
+                            datetime="2017-03-13T08:50:40+00:00"
+                          >
+                            September 26, 2016
+                          </time>
+                        </div>
+
+                        <a class="entry-author">by Admin</a>
+                      </div>
+                      <!-- .entry-meta -->
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- eof .item-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding with_border post format-link"
+                >
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- eof .item-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding with_border post format-image"
+                >
+                  <div class="item-meida entry-thumbnail post-thumbnail">
+                    <img src="images/gallery/06.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title=""></a>
+                    </div>
+                  </div>
+                  <!-- .item-media -->
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-date small-text">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- eof .item-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding ds bg_teaser after_cover darkgrey_bg post format-quote"
+                >
+                  <img src="img/parallax/testimonials.jpg" alt="" />
+                  <div class="item-content entry-content">
+                    <div class="entry-content">
+                      <blockquote>
+                        <p>
+                          Cow salami hamburger biltong, meatball tongue leberkas
+                          fatback pig pork capicola pastrami ribeye. Chuck pork
+                          chop salami kielbasa, venison meatball fatback t-bone
+                          shankle. Kielbasa capicola chicken ground round
+                          leberkas.
+                          <cite class="lightfont">
+                            <a class="small-text">Christina Aguilar</a>
+                            <br />
+                            <span>Manager</span>
+                          </cite>
+                        </p>
+                      </blockquote>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- eof .item-content -->
+                </article>
+
+                <article
+                  class="vertical-item content-padding with_border post format-chat"
+                >
+                  <div class="item-media entry-thumbnail post-thumbnail">
+                    <img src="images/gallery/06.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title=""></a>
+                    </div>
+                  </div>
+                  <!-- .item-media -->
+
+                  <div class="item-content entry-content top-zebra-border">
+                    <header class="entry-header content-justify">
+                      <h3 class="entry-title">
+                        <a rel="bookmark">What You Should Know About Towing Capacity</a>
+                      </h3>
+
+                      <a class="entry-author">by Admin</a>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <p>
+                        Abbott: Strange as it may seem, they give ball players
+                        nowadays very peculiar names.
+                      </p>
+                      <p>Costello: Funny names?</p>
+                      <p>
+                        Abbott: Nicknames, nicknames. Now, on the St. Louis team
+                        we have Who's on first, What's on second, I Don't Know
+                        is on third–
+                      </p>
+                      <p>
+                        Costello: That's what I want to find out. I want you to
+                        tell me the names of the fellows on the St. Louis team.
+                      </p>
+                      <p>
+                        Abbott: I'm telling you. Who's on first, What's on
+                        second, I Don't Know is on third–
+                      </p>
+                      <p>Costello: You know the fellows' names?</p>
+                      <p>Abbott: Yes.</p>
+                    </div>
+                    <!-- .entry-content -->
+
+                    <div class="entry-date small-text topmargin_20">
+                      <time
+                        class="entry-date"
+                        datetime="2017-03-13T08:50:40+00:00"
+                      >
+                        September 26, 2016
+                      </time>
+                    </div>
+                  </div>
+                  <!-- eof .item-content -->
+                </article>
+              </div>
+              <!--eof .col-sm-8 (main content)-->
+            </div>
+          </div>
+        </section>
+        <footer
+          class="page_footer ds section_padding_top_65 section_padding_bottom_50 columns_margin_bottom_40"
+        >
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-3 col-sm-6 to_animate"
+                data-animation="fadeInUp"
+              >
+                <a href="index.html" class="logo">
+                  <img src="images/logo.png" alt="" />
+                  <span class="logo_text">
+                    <span class="highlight">24/7 ROAD RESCUE</span>
+                    <span>Automobile Services</span>
+                  </span>
+                </a>
+
+                <p>
+                  Shank duis pancetta kevin ullamco tempor short loin pig lorem
+                  officia ut ham hock incididunt irure drumstick sage ball tip
+                  tri-tip.
+                </p>
+
+                <p>
+                  <a
+                    href="blog-full.html#"
+                    class="social-icon theme-color-icon soc-twitter"
+                  ></a>
+                  <a
+                    href="blog-full.html#"
+                    class="social-icon theme-color-icon soc-facebook"
+                  ></a>
+                  <a
+                    href="blog-full.html#"
+                    class="social-icon theme-color-icon soc-google"
+                  ></a>
+                  <a
+                    href="blog-full.html#"
+                    class="social-icon theme-color-icon soc-linkedin"
+                  ></a>
+                  <a
+                    href="blog-full.html#"
+                    class="social-icon theme-color-icon soc-pinterest"
+                  ></a>
+                </p>
+              </div>
+
+              <div
+                class="col-md-3 col-sm-6 to_animate"
+                data-animation="fadeInUp"
+              >
+                <div class="topmargin_15 columns_margin_0">
+                  <div class="widget widget_pages">
+                    <h3 class="widget-title">
+                      Useful
+                      <strong>Links</strong>
+                    </h3>
+                    <hr class="divider_30_3 zebra_bg divider_left" />
+                    <div class="row columns_padding_0 columns_margin_0">
+                      <div class="col-xs-6">
+                        <ul class="greylinks">
+                          <li>
+                            <a href="about.html">About</a>
+                          </li>
+                          <!-- <li>
+                            <a href="services.html">Services</a>
+                          </li>
+                          <li>
+                            <a href="gallery-tile.html">Gallery</a>
+                          </li> -->
+                          <li>
+                            <a href="blog-full.html">Blog</a>
+                          </li>
+                          <li>
+                            <a href="contact.html">Contacts</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="greylinks">
+                          <!-- <li>
+                            <a href="blog-full.html">Blog</a>
+                          </li>
+                          <li>
+                            <a href="contact.html">Contacts</a>
+                          </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 col-sm-6 to_animate"
+                data-animation="fadeInUp"
+              >
+                <div class="widget widget_text topmargin_15">
+                  <h3 class="widget-title">
+                    Get in
+                    <strong>Touch</strong>
+                  </h3>
+                  <hr class="divider_30_3 zebra_bg divider_left" />
+                  <div class="media small-teaser">
+                    <div class="media-left">
+                      <i class="fa fa-map-marker highlight fontsize_18"></i>
+                    </div>
+                    <div class="media-body">**********</div>
+                  </div>
+                  <div class="media small-teaser">
+                    <div class="media-left">
+                      <i class="fa fa-envelope highlight fontsize_18"></i>
+                    </div>
+                    <div class="media-body greylinks">
+                      <a
+                        ><span
+                          class="__cf_email__"
+                          data-cfemail="01727471716e737541756e76782f626e6c"
+                          >[email&#160;protected]</span
+                        ></a
+                      >
+                    </div>
+                  </div>
+                  <div class="media small-teaser">
+                    <div class="media-left">
+                      <i class="fa fa-phone highlight fontsize_18"></i>
+                    </div>
+                    <div class="media-body">718-250-4467</div>
+                  </div>
+                  <div class="media small-teaser">
+                    <div class="media-left">
+                      <i class="fa fa-clock-o highlight fontsize_18"></i>
+                    </div>
+                    <div class="media-body">24 hours a day, 7 days a week</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div
+                class="col-md-3 col-sm-12 to_animate"
+                data-animation="fadeInUp"
+              >
+                <div class="topmargin_15">
+                  <div class="widget widget_twitter">
+                    <h3 class="widget-title">
+                      Latest
+                      <strong>Tweets</strong>
+                    </h3>
+                    <hr class="divider_30_3 zebra_bg divider_left" />
+                    <div class="twitter"></div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </footer>
+
+        <section class="ds ms page_copyright section_padding_15">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <p class="lightfont">
+                  24/7 Towy - Road Rescue - Automobile Services
+                  <i class="fa fa-heart highlight" aria-hidden="true"></i> All
+                  Rights Reserved &copy; 2023
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script
+      data-cfasync="false"
+      src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/switcher.js"></script>
+  </body>
+</html>
